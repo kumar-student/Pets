@@ -37,7 +37,7 @@ import androidx.constraintlayout.compose.ConstraintLayout
 
 
 @Composable
-fun PacktColumn() {
+fun ExampleColumn() {
     var count by remember { mutableStateOf(0) }
 
     Column(
@@ -56,7 +56,7 @@ fun PacktColumn() {
 }
 
 @Composable
-fun PacktRow() {
+fun ExampleRow() {
     Row(
         modifier = Modifier
             .fillMaxSize()
@@ -71,7 +71,7 @@ fun PacktRow() {
 }
 
 @Composable
-fun PacktBox() {
+fun ExampleBox() {
     Box(
         modifier = Modifier
             .size(100.dp),
@@ -89,7 +89,7 @@ fun PacktBox() {
 }
 
 @Composable
-fun PacktLazyColumn() {
+fun ExampleLazyColumn() {
     LazyColumn(
         modifier = Modifier
             .fillMaxSize()
@@ -106,7 +106,7 @@ fun PacktLazyColumn() {
 }
 
 @Composable
-fun PacktLazyRow() {
+fun ExampleLazyRow() {
     LazyRow(
         modifier = Modifier
             .fillMaxWidth()
@@ -124,7 +124,7 @@ fun PacktLazyRow() {
 }
 
 @Composable
-fun PacktLazyVerticalGrid() {
+fun ExampleLazyVerticalGrid() {
     LazyVerticalGrid(
         modifier = Modifier
             .fillMaxSize()
@@ -143,7 +143,7 @@ fun PacktLazyVerticalGrid() {
 }
 
 @Composable
-fun PacktLazyHorizontalGrid() {
+fun ExampleLazyHorizontalGrid() {
     LazyHorizontalGrid(
         modifier = Modifier
             .fillMaxSize()
@@ -162,7 +162,7 @@ fun PacktLazyHorizontalGrid() {
 }
 
 @Composable
-fun PacktConstraintLayout() {
+fun ExampleConstraintLayout() {
     ConstraintLayout(
         modifier = Modifier
             .padding(16.dp)
@@ -196,42 +196,42 @@ fun PacktConstraintLayout() {
 
 @Preview(showBackground = true)
 @Composable
-fun PacktColumnPreview() {
-    PacktColumn()
+fun ExampleColumnPreview() {
+    ExampleColumn()
 }
 
 @Preview(showBackground = true)
 @Composable
-fun PacktRowPreview() {
-    PacktRow()
+fun ExampleRowPreview() {
+    ExampleRow()
 }
 
 @Preview(showBackground = true)
 @Composable
-fun PacktBoxPreview() {
-    PacktBox()
+fun ExampleBoxPreview() {
+    ExampleBox()
 }
 
 @Preview(showBackground = true)
 @Composable
-fun PacktLazyColumnPreview() {
-    PacktLazyColumn()
+fun ExampleLazyColumnPreview() {
+    ExampleLazyColumn()
 }
 
 @Preview(showBackground = true)
 @Composable
-fun PacktLazyRowPreview() {
-    PacktLazyRow()
+fun ExampleLazyRowPreview() {
+    ExampleLazyRow()
 }
 
 @Preview(showBackground = true)
 @Composable
-fun PacktLazyVerticalGridPreview() {
-    PacktLazyVerticalGrid()
+fun ExampleLazyVerticalGridPreview() {
+    ExampleLazyVerticalGrid()
 }
 
 @Preview(showBackground = true)
 @Composable
-fun PacktLazyHorizontalGridPreview() {
-    PacktLazyHorizontalGrid()
+fun ExampleLazyHorizontalGridPreview() {
+    ExampleLazyHorizontalGrid()
 }

@@ -5,10 +5,12 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
-import com.example.pets.components.PacktCenterAlignedTopAppBar
-import com.example.pets.components.PacktLargeTopAppBar
-import com.example.pets.components.PacktMediumTopAppBar
-import com.example.pets.components.PacktSmallTopAppBar
+import com.example.pets.components.ExampleCenterAlignedTopAppBar
+import com.example.pets.components.ExampleExtendedFloatingActionButton
+import com.example.pets.components.ExampleFloatingActionButton
+import com.example.pets.components.ExampleLargeTopAppBar
+import com.example.pets.components.ExampleMediumTopAppBar
+import com.example.pets.components.ExampleSmallTopAppBar
 import com.example.pets.ui.theme.PetsTheme
 
 
@@ -18,18 +20,22 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PetsTheme {
-                PacktSmallTopAppBar()
-                // PacktMediumTopAppBar()
-                // PacktLargeTopAppBar()
-                // PacktCenterAlignedTopAppBar()
-                // PacktColumn()
-                // PacktRow()
-                // PacktBox()
-                // PacktLazyColumn()
-                // PacktLazyRow()
-                // PacktLazyVerticalGrid()
-                // PacktLazyHorizontalGrid()
-                // PacktConstraintLayout()
+                ExampleFloatingActionButton()
+                // ExampleExtendedFloatingActionButton()
+
+                // ExampleSmallTopAppBar()
+                // ExampleMediumTopAppBar()
+                // ExampleLargeTopAppBar()
+                // ExampleCenterAlignedTopAppBar()
+
+                // ExampleColumn()
+                // ExampleRow()
+                // ExampleBox()
+                // ExampleLazyColumn()
+                // ExampleLazyRow()
+                // ExampleLazyVerticalGrid()
+                // ExampleLazyHorizontalGrid()
+                // ExampleConstraintLayout()
             }
         }
     }
