@@ -5,6 +5,11 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
+import com.example.pets.components.PacktCenterAlignedTopAppBar
+import com.example.pets.components.PacktLargeTopAppBar
+import com.example.pets.components.PacktMediumTopAppBar
+import com.example.pets.components.PacktSmallTopAppBar
+import com.example.pets.ui.theme.PetsTheme
 
 
 class MainActivity : ComponentActivity() {
@@ -12,19 +17,20 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            MyApp()
+            PetsTheme {
+                PacktSmallTopAppBar()
+                // PacktMediumTopAppBar()
+                // PacktLargeTopAppBar()
+                // PacktCenterAlignedTopAppBar()
+                // PacktColumn()
+                // PacktRow()
+                // PacktBox()
+                // PacktLazyColumn()
+                // PacktLazyRow()
+                // PacktLazyVerticalGrid()
+                // PacktLazyHorizontalGrid()
+                // PacktConstraintLayout()
+            }
         }
     }
-}
-
-@Composable
-fun MyApp() {
-    PacktColumn()
-    // PacktRow()
-    // PacktBox()
-    // PacktLazyColumn()
-    // PacktLazyRow()
-    // PacktLazyVerticalGrid()
-    // PacktLazyHorizontalGrid()
-    // PacktConstraintLayout()
 }
