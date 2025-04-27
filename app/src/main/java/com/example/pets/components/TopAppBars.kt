@@ -13,7 +13,7 @@ import androidx.compose.ui.tooling.preview.Preview
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun PacktSmallTopAppBar() {
+fun ExampleSmallTopAppBar() {
     TopAppBar(
         title = {
             Text(text = "Small Top Appbar")
@@ -23,7 +23,7 @@ fun PacktSmallTopAppBar() {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun PacktMediumTopAppBar() {
+fun ExampleMediumTopAppBar() {
     MediumTopAppBar(
         title = {
             Text(text = "Medium Top Appbar")
@@ -33,7 +33,7 @@ fun PacktMediumTopAppBar() {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun PacktLargeTopAppBar() {
+fun ExampleLargeTopAppBar() {
     LargeTopAppBar(
         title = {
             Text(text = "Large Top Appbar")
@@ -43,7 +43,7 @@ fun PacktLargeTopAppBar() {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun PacktCenterAlignedTopAppBar() {
+fun ExampleCenterAlignedTopAppBar() {
     CenterAlignedTopAppBar(
         title = {
             Text(text = "Center Aligned Top Appbar")
@@ -53,32 +53,32 @@ fun PacktCenterAlignedTopAppBar() {
 
 @Preview
 @Composable
-fun PacktSmallTopAppBarPreview() {
+fun ExampleSmallTopAppBarPreview() {
     PetsTheme {
-        PacktSmallTopAppBar()
+        ExampleSmallTopAppBar()
     }
 }
 
 @Preview
 @Composable
-fun PacktMediumTopAppBarPreview() {
+fun ExampleMediumTopAppBarPreview() {
     PetsTheme {
-        PacktMediumTopAppBar()
+        ExampleMediumTopAppBar()
     }
 }
 
 @Preview
 @Composable
-fun PacktLargeTopAppBarPreview() {
+fun ExampleLargeTopAppBarPreview() {
     PetsTheme {
-        PacktLargeTopAppBar()
+        ExampleLargeTopAppBar()
     }
 }
 
 @Preview
 @Composable
-fun PacktCenterAlignedTopAppBarPreview() {
+fun ExampleCenterAlignedTopAppBarPreview() {
     PetsTheme {
-        PacktCenterAlignedTopAppBar()
+        ExampleCenterAlignedTopAppBar()
     }
 }
