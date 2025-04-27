@@ -10,6 +10,7 @@ import com.example.pets.components.ExampleExtendedFloatingActionButton
 import com.example.pets.components.ExampleFloatingActionButton
 import com.example.pets.components.ExampleLargeTopAppBar
 import com.example.pets.components.ExampleMediumTopAppBar
+import com.example.pets.components.ExampleScaffold
 import com.example.pets.components.ExampleSmallTopAppBar
 import com.example.pets.ui.theme.PetsTheme
 
@@ -20,7 +21,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PetsTheme {
-                ExampleFloatingActionButton()
+                ExampleScaffold()
+
+                // ExampleFloatingActionButton()
                 // ExampleExtendedFloatingActionButton()
 
                 // ExampleSmallTopAppBar()
