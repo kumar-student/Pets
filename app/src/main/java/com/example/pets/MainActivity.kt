@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
+import com.example.pets.components.ExampleBottomAppBar
 import com.example.pets.components.ExampleCenterAlignedTopAppBar
 import com.example.pets.components.ExampleExtendedFloatingActionButton
 import com.example.pets.components.ExampleFloatingActionButton
@@ -25,6 +26,8 @@ class MainActivity : ComponentActivity() {
 
                 // ExampleFloatingActionButton()
                 // ExampleExtendedFloatingActionButton()
+
+                // ExampleBottomAppBar()
 
                 // ExampleSmallTopAppBar()
                 // ExampleMediumTopAppBar()
