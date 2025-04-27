@@ -16,7 +16,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.pets.ui.theme.PetsTheme
-import com.packt.chapterfour.materialcomponents.ExampleBottomNavigationBar
+import com.example.pets.components.ExampleBottomNavigationBar
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -52,7 +52,7 @@ fun ExampleScaffold() {
 
 @Preview
 @Composable
-fun PacktScaffoldPreview() {
+fun ExampleScaffoldPreview() {
     PetsTheme {
         ExampleScaffold()
     }

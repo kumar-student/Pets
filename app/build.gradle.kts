@@ -59,5 +59,8 @@ dependencies {
 
     // constraintlayout
     implementation(libs.androidx.constraintlayout.compose)
+    // window sizes
     implementation(libs.androidx.material3.window.size.class1)
+    // dependency injection
+    implementation(libs.insert.koin.koin.androidx.compose)
 }
