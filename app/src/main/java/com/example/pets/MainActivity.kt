@@ -19,6 +19,7 @@ import com.example.pets.ui.theme.PetsTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val deviceFoldingPostureFlow = WindowInfoTracker
         enableEdgeToEdge()
         setContent {
             PetsTheme {
