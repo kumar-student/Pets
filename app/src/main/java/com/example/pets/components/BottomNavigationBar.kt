@@ -1,4 +1,4 @@
-package com.packt.chapterfour.materialcomponents
+package com.example.pets.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -72,7 +72,7 @@ fun ExampleBottomNavigationBar() {
 
 @Preview
 @Composable
-fun PacktBottomNavigationBarPreview() {
+fun ExampleBottomNavigationBarPreview() {
     PetsTheme {
         ExampleBottomNavigationBar()
     }
