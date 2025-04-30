@@ -1,5 +1,5 @@
 package com.example.pets.data
 
 interface PetsRepository {
-    fun getPets(): List<Pet>
+    suspend fun getPets(): NetworkResult<List<Cat>>
 }
